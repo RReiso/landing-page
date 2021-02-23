@@ -1,3 +1,5 @@
+/* image gallery: https://postimg.cc/gallery/6wYmQ2Y */
+
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Ubuntu:wght@500&display=swap");
 /* || general styles */
 
@@ -176,7 +178,7 @@ header {
 	padding: 0;
 }
 
-.nav-bar-link {
+.nav-link {
 	display: block;
 	padding: 0.5em 2em;
 	background-color: var(--color-white);
@@ -185,8 +187,8 @@ header {
 	-moz-box-shadow: -1px -7px 15px -15px rgba(0, 0, 0, 0.7) inset;
 }
 
-.nav-bar-link:hover,
-.nav-bar-link:focus {
+.nav-link:hover,
+.nav-link:focus {
 	background: #bcd8ee;
 	color: var(--color-grey-text);
 }
@@ -243,7 +245,7 @@ header {
 	max-width: 50rem;
 	font-size: 1.3em;
 	font-weight: normal;
-	text-align: justify;
+	text-align: center;
 	color: var(--color-white);
 }
 
@@ -582,7 +584,7 @@ i {
 	#nav-bar input:checked ~ #nav-bar-list {
 		display: flex;
 	}
-	.nav-bar-link {
+	.nav-link {
 		position: relative;
 		margin-right: 1rem;
 		padding: 0;
@@ -593,21 +595,21 @@ i {
 		box-shadow: none;
 	}
 
-	.nav-bar-link:last-of-type {
+	.nav-link:last-of-type {
 		margin-right: 1rem;
 	}
 
-	.nav-bar-link:hover {
+	.nav-link:hover {
 		background-color: unset;
 	}
 
-	.nav-bar-link:focus {
+	.nav-link:focus {
 		background-color: unset;
 		color: var(--color-dark-blue);
 	}
 
-	/*  nav-bar-link underline */
-	.nav-bar-link::after {
+	/*  nav-link underline */
+	.nav-link::after {
 		position: absolute;
 		content: "";
 		width: 95%;
@@ -620,12 +622,12 @@ i {
 		transform-origin: left;
 	}
 
-	.nav-bar-link:hover::after {
+	.nav-link:hover::after {
 		transform: scaleX(1);
 		transform-origin: left;
 	}
 
-	.nav-bar-link:focus::after {
+	.nav-link:focus::after {
 		background-color: var(--color-dark-blue);
 	}
 
