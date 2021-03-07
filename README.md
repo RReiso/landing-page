@@ -35,3 +35,5 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 **User Story #14**: My product landing page should have at least one media query.
 
 **User Story #15**: My product landing page should utilize CSS flexbox at least once.
+
+**Live**: https://rreiso.github.io/landing-page/
