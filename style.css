@@ -1,7 +1,8 @@
 /* image gallery: https://postimg.cc/gallery/6wYmQ2Y */
 
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Ubuntu:wght@500&display=swap");
-/* || general styles */
+
+/* || GENERAL STYLES */
 
 html {
 	scroll-behavior: smooth;
@@ -117,13 +118,13 @@ i:hover {
 	box-shadow: 0 0 0 0.15rem #1658a3;
 }
 
-/* || utilities */
+/* || UTILITIES */
 
 .nobullets {
 	list-style-type: none;
 }
 
-/* || header and navigation */
+/* || HEADER AND NAVIGATION */
 
 header {
 	position: fixed;
@@ -197,7 +198,7 @@ header {
 	display: block;
 }
 
-/* || home */
+/* || HOME */
 
 .home-bg::before {
 	content: "";
@@ -249,7 +250,7 @@ header {
 	color: var(--color-white);
 }
 
-/* || services */
+/* || SERVICES */
 
 .flex-services {
 	display: flex;
@@ -276,7 +277,7 @@ header {
 	margin: 0.5rem 0 1rem;
 }
 
-/* || why us */
+/* || WHY US */
 
 .video-wrap {
 	display: flex;
@@ -295,7 +296,7 @@ header {
 	padding: 0.5rem;
 }
 
-/* || testimonials */
+/* || TESTIMONIALS */
 
 .flex-testimonials {
 	margin-top: 2rem;
@@ -345,7 +346,7 @@ header {
 	font-size: 0.875rem;
 }
 
-/* || contact us */
+/* || CONTACT US */
 
 .flex-contact {
 	display: flex;
@@ -405,7 +406,7 @@ textarea {
 	overflow: hidden;
 }
 
-/* || footer */
+/* || FOOTER */
 
 footer {
 	background-color: var(--color-dark-blue);
@@ -455,24 +456,25 @@ i {
 	padding: 0.125rem;
 }
 
-/* || media */
+/* || MEDIA */
 
 @media (min-width: 25.625em) {
-	/* || general styles */
+
+	/* || GENERAL STYLES */
 
 	.flex-box {
 		margin: 0 1rem 2rem;
 		max-width: 32rem;
 	}
 
-	/* || testimonials */
+	/* || TESTIMONIALS */
 
 	.testimonial-quote {
 		margin: 1.5rem 3.5rem;
 		padding: 2rem;
 	}
 
-	/* || contact us */
+	/* || CONTACT US */
 
 	textarea {
 		min-height: 8rem;
@@ -480,20 +482,21 @@ i {
 }
 
 @media (min-width: 43.125em) {
-	/* || general styles*/
+
+	/* || GENERAL STYLES*/
 
 	.flex-box {
 		max-width: 18rem;
 	}
 
-	/* ||testimonials */
+	/* ||TESTIMONIALS */
 
 	.testimonial-quote {
 		margin: 1.25rem;
 		padding: 1.5rem;
 	}
 
-	/* || contact us */
+	/* || CONTACT US */
 
 	.flex-contact {
 		margin: 0 2rem;
@@ -513,7 +516,8 @@ i {
 }
 
 @media (min-width: 48.125em) {
-	/* || general styles */
+
+	/* || GENERAL STYLES */
 
 	.section-bg {
 		padding-top: 5rem;
@@ -524,7 +528,7 @@ i {
 		margin-bottom: 4rem;
 	}
 
-	/* || header and navigation */
+	/* || HEADER AND NAVIGATION */
 
 	#hamburger-nav-bar-line,
 	#nav-bar label,
@@ -631,7 +635,7 @@ i {
 		background-color: var(--color-dark-blue);
 	}
 
-	/* || home */
+	/* || HOME */
 
 	.home-bg {
 		padding: 10rem 0 3rem;
@@ -645,7 +649,7 @@ i {
 		margin: 5rem auto 3rem;
 	}
 
-	/* || why us */
+	/* || WHY US */
 
 	.video-wrap {
 		display: flex;
@@ -659,7 +663,7 @@ i {
 		/* width: 100%; */
 	}
 
-	/* || testimonials */
+	/* || TESTIMONIALS */
 
 	.flex-testimonials {
 		margin-top: 4rem;
@@ -669,7 +673,7 @@ i {
 		margin: 0 2rem 2rem;
 	}
 
-	/* || contact us */
+	/* || CONTACT US */
 
 	.flex-contact {
 		flex-direction: row;
@@ -709,7 +713,7 @@ i {
 		width: 100%;
 	}
 
-	/* || footer */
+	/* || FOOTER */
 
 	.company-info {
 		justify-content: space-evenly;
